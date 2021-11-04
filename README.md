@@ -2,6 +2,8 @@
 
 We created PARSIQ Platform Smart Triggers that react to CryptoPunks directly related on-chain events and follow custom logic to deliver all necessary transaction information about the price action.
 
+Offers for Sale of the limited CryptoPunks are particularly vital to traders and collectors. New listings might prove to be an opportunity to profit from the immediate purchase. While for traders new sales provide indicators for the health of demand/supply within the collections as well as for the market, in general.
+
 The Link to the project on PARSIQ: https://portal.parsiq.net/monitoring/projects/6ba2e00f-813c-4f5c-bf36-c5d53cbd7791/triggers
 
 Cryptopunks is the NFT collection of 10000 uniquely generated characters. The collection has a highest market capitalisation and market volume as of Novemeber 4th 2021. 
@@ -26,4 +28,7 @@ Cryptopunks is the NFT collection of 10000 uniquely generated characters. The co
 ![image](https://user-images.githubusercontent.com/66903336/140245930-f13d5142-a84e-4bb4-a668-1d66c857c8f4.png)
 ![image](https://user-images.githubusercontent.com/66903336/140245977-f45f38d5-fa97-40eb-9705-d8802006d427.png)
 
+## Next Steps
+
+To further develop and grow the project we propose to build a web app that takes these signals and combines external data such as the one from Opensea to assist traders and collectors.
 
