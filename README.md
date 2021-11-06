@@ -30,15 +30,26 @@ Cryptopunks is the NFT collection of 10000 uniquely generated characters. The co
 ![image](https://user-images.githubusercontent.com/66903336/140252248-16511115-7a69-466d-b81e-96cac41be8a5.png)
 
 6. The results are as following:
+
 We get immediate notifications through a telegram bot in the private channel
 ![image](https://user-images.githubusercontent.com/66903336/140609836-eb44988a-9017-4802-bb92-17279241a2f8.png)
 
+By using ngrok, we recieve the post request from the triggers.
+* [How to use ngrok with Windows and Visual Studio to test webhooks](https://www.twilio.com/docs/usage/tutorials/how-use-ngrok-windows-and-visual-studio-test-webhooks)
+
 We also configured three separate Google Sheet spreadsheets that serve as real time database for CryptoPunks collection.
-https://docs.google.com/spreadsheets/d/1eld-RtjigW1hW12OzWV9Cguc3Kcyd77OqGe3lLuyRT4/edit?usp=sharing
-https://docs.google.com/spreadsheets/d/1b5sGe996vq15jrrKPPajlFNpUDM81mpdmyAh0THn1Cw/edit?usp=sharing
-https://docs.google.com/spreadsheets/d/16aFiahFzQMvKdXnnHTVTDvcknioHmiZqRK8Asr5Kz7c/edit?usp=sharing
+
+1. https://docs.google.com/spreadsheets/d/1eld-RtjigW1hW12OzWV9Cguc3Kcyd77OqGe3lLuyRT4/edit?usp=sharing
+2. https://docs.google.com/spreadsheets/d/1b5sGe996vq15jrrKPPajlFNpUDM81mpdmyAh0THn1Cw/edit?usp=sharing
+3. https://docs.google.com/spreadsheets/d/16aFiahFzQMvKdXnnHTVTDvcknioHmiZqRK8Asr5Kz7c/edit?usp=sharing
 
 ## Next Steps
 
-To further develop and grow the project we propose to build a web app that takes these signals and combines external data such as the one from Opensea to assist traders and collectors.
+To further develop and grow the project we an app that takes these signals and displays them to users.
 
+## Additional resources
+### PARSIQ YouTube Videos
+
+[PARSIQ Use Case: AML Risk Monitoring](https://www.youtube.com/watch?v=BeRhLAI2xf4&t)
+
+[PARSIQ Use Case: Wallet Security Surveillance + Whitelisting](https://www.youtube.com/watch?v=3MFqwuLxtQk)
