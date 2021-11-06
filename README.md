@@ -75,10 +75,6 @@ We also configured three separate Google Sheet spreadsheets that serve as real t
 2. https://docs.google.com/spreadsheets/d/1b5sGe996vq15jrrKPPajlFNpUDM81mpdmyAh0THn1Cw/edit?usp=sharing
 3. https://docs.google.com/spreadsheets/d/16aFiahFzQMvKdXnnHTVTDvcknioHmiZqRK8Asr5Kz7c/edit?usp=sharing
 
-## Next Steps
-
-To further develop and grow the project we an app that takes these signals and displays them to users.
-
 ## Additional resources
 ### PARSIQ YouTube Videos
 
