@@ -34,7 +34,7 @@ Cryptopunks is the NFT collection of 10000 uniquely generated characters. The co
 We get immediate notifications through a telegram bot in the private channel
 ![image](https://user-images.githubusercontent.com/66903336/140609836-eb44988a-9017-4802-bb92-17279241a2f8.png)
 
-By using ngrok, we recieve the post request from the triggers. And update the User Tables on the Platform.
+By using ngrok, we recieve the post request from the triggers. For two out of three trigger we also post the data back on the Platform to update the User Tables with NodeJs.
 * [How to use ngrok with Windows and Visual Studio to test webhooks](https://www.twilio.com/docs/usage/tutorials/how-use-ngrok-windows-and-visual-studio-test-webhooks)
 ```
 var express = require('express')
