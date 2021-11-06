@@ -34,8 +34,40 @@ Cryptopunks is the NFT collection of 10000 uniquely generated characters. The co
 We get immediate notifications through a telegram bot in the private channel
 ![image](https://user-images.githubusercontent.com/66903336/140609836-eb44988a-9017-4802-bb92-17279241a2f8.png)
 
-By using ngrok, we recieve the post request from the triggers.
+By using ngrok, we recieve the post request from the triggers. And update the User Tables on the Platform.
 * [How to use ngrok with Windows and Visual Studio to test webhooks](https://www.twilio.com/docs/usage/tutorials/how-use-ngrok-windows-and-visual-studio-test-webhooks)
+```
+var express = require('express')
+var request = require('request')
+
+var app = express()
+app.use(express.json())
+
+app.post('/', function(req, res) {
+    console.log(JSON.stringify(req.body));
+    var options = {
+        'method': 'POST',
+        'url': 'https://api.parsiq.net/v1/data/14dff863-0463-45c8-a0a9-6e986d45aed1',
+        'headers': {
+          'Authorization': 'Bearer 0009e789d7e8d1239073f5b3e402580b2b32ed54aa31874c2c3e6eac3652a759',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify([
+          {
+            "address": req.body.fromAddress,
+            "Punk": req.body.punkIndex,
+            "Event":req.body.event
+          }
+        ])};
+    
+    request(options);
+    res.end();
+})
+const port = process.env.PORT || 3000
+
+app.listen(port, () => console.log(`Application listening on port ${port}`))
+```
+
 
 We also configured three separate Google Sheet spreadsheets that serve as real time database for CryptoPunks collection.
 
