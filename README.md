@@ -16,6 +16,8 @@ Cryptopunks is the NFT collection of 10000 uniquely generated characters. The co
 
 2. Next, to monitor an NFT collection we need to add its contract ABI in the User stream on PARSIQ platform. [Link to CryptoPunks Contract](https://etherscan.io/address/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb#code) We select the ABI straight from the page or export into RAW/TEXT format and upload to the Platform. ![image](https://user-images.githubusercontent.com/66903336/140627741-bea5116d-0b93-4f4d-af08-6fb4e321223e.png)
  ![image](https://user-images.githubusercontent.com/66903336/140244623-07f2cb8d-c07c-448d-a9d3-809bb6d66600.png) 
+ ![image](https://user-images.githubusercontent.com/66903336/140629515-5b5ccb36-07ed-46bc-ac06-1293bd50eb78.png)
+
 3. We also added the events and functions of the contract so that we could use them with ParsiQL to create a trigger. In our instance, we added the events such as PunkOffered, PunkBidEntered and PunkBidWithdrawn![image](https://user-images.githubusercontent.com/66903336/140245677-1355f8de-9bd4-4850-9388-94e4089fc56a.png)
 ![image](https://user-images.githubusercontent.com/66903336/140245798-6aa9de77-8914-4074-82ac-724fe96604e2.png)
 
