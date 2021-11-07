@@ -2,7 +2,7 @@
 We created three PARSIQ Platform Smart Triggers that respond to CryptoPunks directly related on-chain events and follow custom logic to deliver all necessary transaction information about the price action. On top of that we created a Web App to present the information to End User in Real Time.
 
 ## [App Walkthrough on YouTube](https://www.youtube.com/watch?v=) <<< Click Here
-## [App Walkthrough on Blog Setting Up](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks) <<< Click Here
+## [Blog Post walkrough through the Project](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks) <<< Click Here
 ## [The Link to the project on PARSIQ](https://portal.parsiq.net/monitoring/projects/6ba2e00f-813c-4f5c-bf36-c5d53cbd7791/triggers)
 
 Offers for Sale of the limited CryptoPunks collection are particularly vital to traders and collectors. New listings might prove to be an opportunity to profit from the immediate purchase. Meanwhile for traders new sales provide indicators for the demand/supply within the collections as well as for the market, in general.
